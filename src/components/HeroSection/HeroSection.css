@@ -1,0 +1,69 @@
+.hero-section {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  .heroBanner {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+.card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+.card-body{
+    padding: 0;
+}  
+.card-title {
+    font-size: 27px;
+    font-weight: 600;
+    max-width: 397px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+    margin: 20px; 
+  }
+  
+  .badge-custom {
+    width: 97px;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+  }
+  
+  .author-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.25rem;
+  }
+  
+  .author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .author-details {
+    text-align: left;
+    gap: 10px
+    ;
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  .post-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
